@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 
 class Skills extends Component {
 
-	constructor(props) {
-		super(props);
-	}
-
 	updateSkillBars() {
 		window.updateBars();
 	}
@@ -19,8 +15,6 @@ class Skills extends Component {
 	}
 
 	render() {
-
-		console.log('Skills::render()');
 
 		var skills = this.props.skills;
 

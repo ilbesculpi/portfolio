@@ -17,3 +17,18 @@ See the [online portfolio](https://ilbesculpi.github.io/portfolio/)
 ## How does it work?
 
 The data is fetched from json files: profile.json and experience.json. They're then rendered using React components.
+
+
+## Start local server
+
+```
+npm install
+bower install
+npm start
+```
+
+## Publish and deploy
+
+```
+npm deploy
+```

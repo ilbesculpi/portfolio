@@ -2,13 +2,7 @@ import React, { Component } from 'react';
 
 class Sidebar extends Component {
 
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
-
-		console.log('Sidebar::render()');
 
 		var profile = this.props.profile;
 

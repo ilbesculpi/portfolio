@@ -39,19 +39,19 @@
 			"tools": [
 				{
 					"title": "HTML5 & javascript",
-					"level": 80
+					"level": 100
 				},
 				{
 					"title": "Bootstrap & Foundation",
-					"level": 88
+					"level": 95
+				},
+				{
+					"title": "React",
+					"level": 90
 				},
 				{
 					"title": "Angular",
 					"level": 70
-				},
-				{
-					"title": "React",
-					"level": 50
 				}
 			],
 			"extra": ["bower", "npm", "gulp"]
@@ -60,7 +60,7 @@
 			"tools": [
 				{
 					"title": "Laravel",
-					"level": 96
+					"level": 90
 				},
 				{
 					"title": "CakePHP",
@@ -68,31 +68,35 @@
 				},
 				{
 					"title": "Node.js",
-					"level": 60
+					"level": 90
 				},
 				{
 					"title": ".NET",
 					"level": 40
 				}
 			],
-			"extra": ["Memcache", "Codeception", "Elasticsearch", "Mongodb", "MySQL"]
+			"extra": ["MySQL", "firebase", "Memcache", "Mongodb"]
 		},
 		"mobile": {
 			"tools": [
 				{
-					"title": "ionic & cordova",
-					"level": 90
-				},
-				{
 					"title": "iOS",
-					"level": 85
+					"level": 95
 				},
 				{
 					"title": "Android",
-					"level": 65
+					"level": 88
+				},
+				{
+					"title": "ionic",
+					"level": 85
+				},
+				{
+					"title": "React Native",
+					"level": 75
 				}
 			],
-			"extra": ["Fabric", "Appium", "SQLite"]
+			"extra": ["Fabric", "Fastlane", "Appium", "SQLite"]
 		}
 	}
 }

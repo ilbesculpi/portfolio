@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 
 class Projects extends Component {
 
-	constructor(props) {
-		super(props);
-	}
-
 	componentDidMount() {
 		this.updateGallery();
 	}
@@ -20,15 +16,13 @@ class Projects extends Component {
 
 	render() {
 
-		console.log('Projects::render()');
-
 		const template = function(project, index) {
 
 			const galleryID = project.title;
 
 			const imagesTemplate = function(image, index) {
 				return (
-					<div className="col-xs-6 col-md-3">
+					<div className="col-xs-6 col-md-3" key={ index }>
 						<a href={ "./images/projects/" + image } rel={ galleryID } className="fancybox">
 							<img src={ "./images/projects/" + image } alt="" />
 						</a>
@@ -36,7 +30,7 @@ class Projects extends Component {
 				);
 			};
 
-			var gallery = project.gallery.map(imagesTemplate);
+			const gallery = project.gallery.map(imagesTemplate);
 
 			return (<div className="item" key={index}>
 				<h3 className="project-title">{ project.title }</h3>
@@ -49,10 +43,10 @@ class Projects extends Component {
 			</div>);
 		};
 
-		var projects = this.props.projects;
+		const projects = this.props.projects;
 		const content = projects.map(template);
 
-		if( projects.count == 0 ) {
+		if( projects.count === 0 ) {
 			return <div></div>
 		}
 

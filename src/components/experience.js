@@ -2,23 +2,17 @@ import React, { Component } from 'react';
 
 class Experience extends Component {
 
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
-
-		console.log('Experience::render()');
 
 		var positions = this.props.positions;
 
 		const experience = positions.map((position, index) => {
 
-			const details = position.description.map((paragraph) => {
-				return <p>{ paragraph }</p>
+			const details = position.description.map((paragraph, index) => {
+				return <p key={ index }>{ paragraph }</p>
 			});
 
-			return (<div className="item" key={index}>
+			return (<div className="item" key={ index }>
 				<div className="meta">
 					<div className="upper-row">
 						<h3 className="job-title">{ position.title }</h3>
