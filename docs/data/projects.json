@@ -1,5 +1,32 @@
 [
 	{
+		"title": "Autotrade",
+		"description": "AutoTrade helps dealerships in Panama to register and sell cars in auctions.",
+		"tags": "iOS",
+		"url": "https://itunes.apple.com/us/app/autotrade-pty/id1250155354",
+		"thumbnail": "autotrade01.jpg",
+		"gallery": [
+			"autotrade01.jpg",
+			"autotrade02.jpg",
+			"autotrade03.jpg",
+			"autotrade04.jpg"
+		]
+	},
+	{
+		"title": "Agricolum",
+		"description": "Agricolum is an application for farm management and agriculture improvements.",
+		"tags": "iOS, android",
+		"url": "https://itunes.apple.com/es/app/agricolum-cuaderno-campo-y/id1102245703",
+		"thumbnail": "agricolum01.jpg",
+		"gallery": [
+			"agricolum01.jpg",
+			"agricolum02.jpg",
+			"agricolum03.jpg",
+			"agricolum04.jpg",
+			"agricolum05.jpg"
+		]
+	},
+	{
 		"title": "Snappy Spanish",
 		"description": "iOS application for learning spanish",
 		"tags": "iOS, Core Data, AVFoundation",

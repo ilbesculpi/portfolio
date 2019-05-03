@@ -1,11 +1,24 @@
 [
 	{
+		"title": "Senior Mobile Developer",
+		"company": "Bandit Solutions",
+		"location": "Remote",
+		"period": {
+			"from": "March 2017",
+			"to": "March 2018"
+		},
+		"description": [
+			"Develop mobile applications (android and iOS) for a client in Spain (remote work)",
+			"Each week we planned the tasks for the next iteration"
+		]
+	},
+	{
 		"title": "Project Team Lead",
 		"company": "Bee Concept Solutions",
 		"location": "Caracas, Venezuela",
 		"period": {
 			"from": "July 2015",
-			"to": null
+			"to": "March 2017"
 		},
 		"description": [
 			"Working with other key members on projects to come up with the goals, objectives and achieve the milestones.",
