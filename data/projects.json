@@ -1,0 +1,79 @@
+[
+	{
+		"title": "Autotrade",
+		"description": "AutoTrade helps dealerships in Panama to register and sell cars in auctions.",
+		"tags": "iOS",
+		"url": "https://itunes.apple.com/us/app/autotrade-pty/id1250155354",
+		"thumbnail": "autotrade01.jpg",
+		"gallery": [
+			"autotrade01.jpg",
+			"autotrade02.jpg",
+			"autotrade03.jpg",
+			"autotrade04.jpg"
+		]
+	},
+	{
+		"title": "Agricolum",
+		"description": "Agricolum is an application for farm management and agriculture improvements.",
+		"tags": "iOS, android",
+		"url": "https://itunes.apple.com/es/app/agricolum-cuaderno-campo-y/id1102245703",
+		"thumbnail": "agricolum01.jpg",
+		"gallery": [
+			"agricolum01.jpg",
+			"agricolum02.jpg",
+			"agricolum03.jpg",
+			"agricolum04.jpg",
+			"agricolum05.jpg"
+		]
+	},
+	{
+		"title": "Snappy Spanish",
+		"description": "iOS application for learning spanish",
+		"tags": "iOS, Core Data, AVFoundation",
+		"url": null,
+		"thumbnail": "snappy001.jpg",
+		"gallery": [
+			"snappy001.jpg",
+			"snappy002.png",
+			"snappy003.jpg",
+			"snappy004.jpg"
+		]
+	},
+	{
+		"title": "Alfa",
+		"description": "",
+		"tags": "Laravel",
+		"url": "http://alfa.com.co",
+		"thumbnail": "alfa001.png",
+		"gallery": [
+			"alfa001.png",
+			"alfa002.png",
+			"alfa003.png"
+		]
+	},
+	{
+		"title": "Ford Consumer Experience",
+		"description": "",
+		"tags": "Laravel, Angular, cordova",
+		"url": "http://miguiaford.com.co",
+		"thumbnail": "fordconsumer001.png",
+		"gallery": [
+			"fordconsumer001.png",
+			"fordconsumer002.png",
+			"fordconsumer003.png",
+			"fordconsumer004.png"
+		]
+	},
+	{
+		"title": "EURunners",
+		"description": "iOS application designed for runners in Venezuela",
+		"tags": "iOS, SQLite, Objective-C",
+		"url": "https://itunes.apple.com/us/app/eurunners/id983067889",
+		"thumbnail": "eurunners001.jpeg",
+		"gallery": [
+			"eurunners001.jpeg",
+			"eurunners002.jpeg",
+			"eurunners003.jpeg"
+		]
+	}
+]
