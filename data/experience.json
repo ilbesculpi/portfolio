@@ -1,8 +1,21 @@
 [
 	{
+		"title": "Mobile / Backend Developer",
+		"company": "AutoTrade Panamá",
+		"location": "Remote (Panamá)",
+		"period": {
+			"from": "June 2018",
+			"to": "Current"
+		},
+		"description": [
+			"Develop the AutoTrade iOS application.",
+			"Develop the backend application (nodejs), supporting the mobile application. Using firebase as the database."
+		]
+	},
+	{
 		"title": "Senior Mobile Developer",
 		"company": "Bandit Solutions",
-		"location": "Remote",
+		"location": "Remote (Spain)",
 		"period": {
 			"from": "March 2017",
 			"to": "March 2018"
