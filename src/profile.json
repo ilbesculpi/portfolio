@@ -1,0 +1,59 @@
+{
+  "info": {
+    "name": "Ilbert Esculpi",
+    "profession": "Software Engineer",
+    "location": "Caracas, Venezuela",
+    "email": "ilbert.esculpi@gmail.com",
+    "telephone": "+58 412.2982011"
+  },
+  "skills": {
+    "Mobile": [
+      {
+        "label": "iOS",
+        "value": 90
+      },
+      {
+        "label": "Android",
+        "value": 80
+      },
+      {
+        "label": "Ionic",
+        "value": 80
+      }
+    ],
+    "Frontend": [
+      {
+        "label": "Angular",
+        "value": 90
+      },
+      {
+        "label": "React",
+        "value": 70
+      }
+    ],
+    "Backend": [
+      {
+        "label": "Laravel",
+        "value": "80"
+      },
+      {
+        "label": "CakePHP",
+        "value": 70
+      }
+    ],
+    "Languages": [
+      {
+        "label": "Spanish",
+        "value": 100
+      },
+      {
+        "label": "English",
+        "value": 80
+      },
+      {
+        "label": "French",
+        "value": 50
+      }
+    ]
+  }
+}
