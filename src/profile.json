@@ -33,8 +33,12 @@
     ],
     "Backend": [
       {
+        "label": "Node",
+        "value": 90
+      },
+      {
         "label": "Laravel",
-        "value": "80"
+        "value": 70
       },
       {
         "label": "CakePHP",
