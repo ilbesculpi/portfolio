@@ -1,25 +1,50 @@
 import logo from './logo.svg';
 import './App.css';
+import Spinner from './components/Spinner';
+import { useEffect, useState } from 'react';
+import { Header, Navbar, About } from './sections';
 
 function App() {
+
+  const [isLoading, setIsLoading] = useState(true);
+  const [profileData, setProfileData] = useState(null);
+  const [pageError, setPageError] = useState(null);
+
+  useEffect(() => {
+    loadProfile();
+  }, []);
+
+  if( isLoading ) {
+    return <Spinner />
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Header profile={profileData} />
+      <About />
+    </>
   );
+
+  async function loadProfile() {
+    setIsLoading(true);
+    try {
+      const response = await fetch('/data/profile.json');
+      if( !response.ok ) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const profile = await response.json();
+      setProfileData(profile);
+      setIsLoading(false);
+    }
+    catch(error) {
+      console.error("Error fetching profile data:", error);
+      setIsLoading(false);
+      setPageError('Error fetching profile data.');
+    }
+  }
+
 }
+
 
 export default App;
