@@ -4,5 +4,35 @@
     "bio": "Highly accomplished and results-oriented Full-Stack Software Engineer with over 10 years of experience delivering impactful solutions across diverse industries, including finance and automotive. Proven ability to analyze complex, ambiguous requirements, architect robust and scalable software designs, and optimize development processes to drive significant business improvements across the full technology stack.",
     "location": "Caracas, Venezuela",
     "phone": "+58 4125400877",
-    "email": "ilbert.esculpi@gmail.com"
+    "email": "ilbert.esculpi@gmail.com",
+    "skills": [
+        { "title": "Node", "value": "9/10", "icon": "fab fa-node-js" },
+        { "title": "PHP", "value": "8/10", "icon": "fab fa-php" },
+        { "title": "iOS", "value": "7/10", "icon": "fab fa-apple" },
+        { "title": "Android", "value": "7/10", "icon": "fab fa-android" },
+        { "title": "React Native", "value": "6/10", "icon": "fab fa-react" },
+        { "title": "AWS", "value": "6/10", "icon": "fab fa-aws" },
+        { "title": "Database Management", "value": "8/10", "icon": "fas fa-database" }
+    ],
+    "experience": [
+        {
+            "company": "Preztamos Punto Com",
+            "companyUrl": "https://www.preztamos.com",
+            "title": "Senior Software Engineer",
+            "date": "2020 - present",
+            "description": "At Preztamos.Punto Com, I have been instrumental in analyzing, designing, and developing full-stack solutions to address complex borrowing and lending needs in Latin America. This includes leading the investigation of AI-powered solutions like the development of an OpenAI-based chatbot assistant, optimizing data retrieval through Solr implementation, and architecting scalable systems with microservices and non-relational databases. I have also been responsible for mentoring a team of developers, streamlining deployment processes with GitHub Actions, and developing integration endpoints for stakeholder data access via BigQuery."
+        },
+        {
+            "company": "AutoTrade",
+            "title": "Mobile / Backend Developer",
+            "date": "2018 - 2020",
+            "description": "I developed both the iOS application and its backend for a platform designed to register, evaluate, and sell used cars in Panama. This involved creating key features for vehicle condition assesment (including image capture and condition scoring), a real-time auction system, and document management, as well as building a Firebase Realtime Database-driven backend to support all application functionalities. I was also responsible for preparing the app for publishing on the Apple App Store, and managing the certificate process for enabling push notifications."
+        },
+        {
+            "company": "Bandit Solutions - Remote (Spain)",
+            "title": "Mobile Developer",
+            "date": "March 2017 - March 2018",
+            "description": "Responsible for the development and maintenance of mobile applications, particularly for android and iOS devices. My primary focus is to integrate with backend services, and provide solutions for common problems, such as displaying great on multiple device sizes, make the apps work well with poor network connectivity, etc."
+        }
+    ]
 }

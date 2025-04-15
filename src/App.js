@@ -27,8 +27,8 @@ function App() {
     <>
       <Navbar />
       <Header profile={profileData} />
-      <Skills />
-      <Experience />
+      <Skills skills={profileData.skills} />
+      <Experience experience={profileData.experience} />
       <Portfolio />
       <Education />
       <Services />
