@@ -27,10 +27,10 @@ function App() {
     <>
       <Navbar />
       <Header profile={profileData} />
-      <Skills />
-      <Experience />
-      <Portfolio />
-      <Education />
+      <Skills skills={profileData.skills} />
+      <Experience experience={profileData.experience} />
+      <Portfolio portfolio={profileData.portfolio} />
+      {/* <Education /> */}
       <Services />
       <Footer />
     </>
