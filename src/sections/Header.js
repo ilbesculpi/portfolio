@@ -18,7 +18,7 @@ function Header({ profile }) {
         <div className="container-fluid" id="pigraHome">
             <div className="container">
                 <div className="row g-0">
-                    <div className="col-12 col-lg-3">
+                    <div className="col-12 col-lg-2">
                         <div className="header-content bg-dark h-100 pt-6 pe-6 pb-6">
                             <div className="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.3s">
                                 <p className="text-white sub-title">👋 Hello I'm Ilbert</p>
@@ -26,7 +26,7 @@ function Header({ profile }) {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-lg-9">
+                    <div className="col-12 col-lg-10">
                         <div className="header-img d-flex h-100 pt-6 ps-6 pb-6">
                             <div className="row g-5">
                                 <div className="col-xl-6 wow fadeInUp" data-wow-delay="0.1s">

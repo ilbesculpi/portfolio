@@ -29,8 +29,8 @@ function App() {
       <Header profile={profileData} />
       <Skills skills={profileData.skills} />
       <Experience experience={profileData.experience} />
-      <Portfolio />
-      <Education />
+      <Portfolio portfolio={profileData.portfolio} />
+      {/* <Education /> */}
       <Services />
       <Footer />
     </>

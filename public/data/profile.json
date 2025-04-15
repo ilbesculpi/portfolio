@@ -34,5 +34,42 @@
             "date": "March 2017 - March 2018",
             "description": "Responsible for the development and maintenance of mobile applications, particularly for android and iOS devices. My primary focus is to integrate with backend services, and provide solutions for common problems, such as displaying great on multiple device sizes, make the apps work well with poor network connectivity, etc."
         }
+    ],
+    "portfolio": [
+        {
+            "headline": "Preztamos.com",
+            "subtitle": "Software Developer",
+            "tags": "Angular, Firebase, Microservices",
+            "cols": 3,
+            "photos": [
+                { "url": "/img/portfolio/preztamos_home.png", "title": "Preztamos Home" },
+                { "url": "/img/portfolio/preztamos_dashboard_s02.jpg", "title": "Preztamos Dashboard" },
+                { "url": "/img/portfolio/preztamos_dashboard_d01.png", "title": "Preztamos Dashboard" }
+            ]
+        },
+        {
+            "headline": "Autotrade",
+            "subtitle": "Backend / Mobile App Developer",
+            "tags": "iOS, Firebase",
+            "cols": 4,
+            "photos": [
+                { "url": "/img/portfolio/autotrade01.jpg", "title": "Autotrade Home" },
+                { "url": "/img/portfolio/autotrade02.jpg", "title": "Autotrade Car Info" },
+                { "url": "/img/portfolio/autotrade03.jpg", "title": "Autotrade Agent Board" },
+                { "url": "/img/portfolio/autotrade04.jpg", "title": "Autotrade Evaluation Board" }
+            ]
+        },
+        {
+            "headline": "Agricolum",
+            "subtitle": "Mobile App Developer",
+            "tags": "Android, iOS",
+            "cols": 4,
+            "photos": [
+                { "url": "/img/portfolio/agricolum01.jpg", "title": "Agricolum Home" },
+                { "url": "/img/portfolio/agricolum02.jpg", "title": "Agricolum Home" },
+                { "url": "/img/portfolio/agricolum03.jpg", "title": "Agricolum Home" },
+                { "url": "/img/portfolio/agricolum04.jpg", "title": "Agricolum Home" }
+            ]
+        }
     ]
 }
