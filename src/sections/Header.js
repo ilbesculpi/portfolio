@@ -31,7 +31,7 @@ function Header({ profile }) {
                             <div className="row g-5">
                                 <div className="col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
                                     <div className="bg-light p-4" style={{ borderRadius: '68% 32% 100% 0% / 0% 75% 25% 100%' }}>
-                                        <img src="/img/1898824.png" className="img-fluid w-100" style={{ borderRadius: '68% 32% 100% 0% / 0% 75% 25% 100%' }} alt="Profile Pic" />
+                                        <img src="img/1898824.png" className="img-fluid w-100" style={{ borderRadius: '68% 32% 100% 0% / 0% 75% 25% 100%' }} alt="Profile Pic" />
                                     </div>
                                 </div>
                                 <div className="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -58,7 +58,7 @@ function Header({ profile }) {
                                         </a>
                                     </div>
                                     <div className="d-flex align-items-center mt-3 mb-2">
-                                        <a href="/storage/Resume_Ilbert_Esculpi.pdf" download className="btn btn-primary py-2 px-4">
+                                        <a href="storage/Resume_Ilbert_Esculpi.pdf" download className="btn btn-primary py-2 px-4">
                                             <i className="fas fa-download me-2"></i>Download My CV
                                         </a>
                                     </div>

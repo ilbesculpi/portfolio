@@ -48,9 +48,9 @@
             "tags": "Angular, Firebase, Microservices",
             "cols": 3,
             "photos": [
-                { "url": "/img/portfolio/preztamos_home.png", "title": "Preztamos Home" },
-                { "url": "/img/portfolio/preztamos_dashboard_s02.jpg", "title": "Preztamos Dashboard" },
-                { "url": "/img/portfolio/preztamos_dashboard_d01.png", "title": "Preztamos Dashboard" }
+                { "url": "img/portfolio/preztamos_home.png", "title": "Preztamos Home" },
+                { "url": "img/portfolio/preztamos_dashboard_s02.jpg", "title": "Preztamos Dashboard" },
+                { "url": "img/portfolio/preztamos_dashboard_d01.png", "title": "Preztamos Dashboard" }
             ]
         },
         {
@@ -59,10 +59,10 @@
             "tags": "iOS, Firebase",
             "cols": 4,
             "photos": [
-                { "url": "/img/portfolio/autotrade01.jpg", "title": "Autotrade Home" },
-                { "url": "/img/portfolio/autotrade02.jpg", "title": "Autotrade Car Info" },
-                { "url": "/img/portfolio/autotrade03.jpg", "title": "Autotrade Agent Board" },
-                { "url": "/img/portfolio/autotrade04.jpg", "title": "Autotrade Evaluation Board" }
+                { "url": "img/portfolio/autotrade01.jpg", "title": "Autotrade Home" },
+                { "url": "img/portfolio/autotrade02.jpg", "title": "Autotrade Car Info" },
+                { "url": "img/portfolio/autotrade03.jpg", "title": "Autotrade Agent Board" },
+                { "url": "img/portfolio/autotrade04.jpg", "title": "Autotrade Evaluation Board" }
             ]
         },
         {
@@ -72,10 +72,10 @@
             "tags": "Android, iOS",
             "cols": 4,
             "photos": [
-                { "url": "/img/portfolio/agricolum01.jpg", "title": "Agricolum Home" },
-                { "url": "/img/portfolio/agricolum02.jpg", "title": "Agricolum Home" },
-                { "url": "/img/portfolio/agricolum03.jpg", "title": "Agricolum Home" },
-                { "url": "/img/portfolio/agricolum04.jpg", "title": "Agricolum Home" }
+                { "url": "img/portfolio/agricolum01.jpg", "title": "Agricolum Home" },
+                { "url": "img/portfolio/agricolum02.jpg", "title": "Agricolum Home" },
+                { "url": "img/portfolio/agricolum03.jpg", "title": "Agricolum Home" },
+                { "url": "img/portfolio/agricolum04.jpg", "title": "Agricolum Home" }
             ]
         }
     ]
