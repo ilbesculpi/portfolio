@@ -49,12 +49,17 @@ function Header({ profile }) {
                                         <i className="fab fa-whatsapp text-primary me-3"></i>
                                         <p className="text-dark mb-0"><a href={`https://wa.me/${extractPhoneDigits(profile.phone)}`}>{ profile.phone }</a></p>
                                     </div>
-                                    <div className="d-flex">
+                                    <div className="d-flex mb-2">
                                         <a className="btn btn-primary btn-sm-square me-3" href="https://www.linkedin.com/in/ilbesculpi/" target="_blank" rel="noreferrer">
                                             <i className="fab fa-linkedin text-white"></i>
                                         </a>
                                         <a className="btn btn-primary btn-sm-square me-0" href="https://github.com/ilbesculpi" target="_blank" rel="noreferrer">
                                             <i className="fab fa-github text-white"></i>
+                                        </a>
+                                    </div>
+                                    <div className="d-flex align-items-center mt-3 mb-2">
+                                        <a href="/storage/Resume_Ilbert_Esculpi.pdf" download className="btn btn-primary py-2 px-4">
+                                            <i className="fas fa-download me-2"></i>Download My CV
                                         </a>
                                     </div>
                                 </div>

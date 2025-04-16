@@ -20,10 +20,7 @@ function Experience({ experience }) {
                                 <div className="col-12">
                                     <div className="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
                                         <div className="d-flex align-items-center mb-3">
-                                            { job.companyUrl
-                                                ? <p className="fs-5 mb-0 me-4"><a href={ job.companyUrl } target="_blank" rel="noreferrer">{ job.company }</a></p>
-                                                : <p className="fs-5 mb-0 me-4">{ job.company }</p>
-                                            }
+                                            <p className="fs-5 mb-0 me-4">{ job.company }</p>
                                             <div>
                                                 <span className="fa fa-calendar me-1"></span> { job.date }
                                             </div>

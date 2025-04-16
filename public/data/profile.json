@@ -1,7 +1,7 @@
 {
     "name": "Ilbert Esculpi",
     "jobTitle": "Full Stack Software Developer",
-    "bio": "Highly accomplished and results-oriented Full-Stack Software Engineer with over 10 years of experience delivering impactful solutions across diverse industries, including finance and automotive. Proven ability to analyze complex, ambiguous requirements, architect robust and scalable software designs, and optimize development processes to drive significant business improvements across the full technology stack.",
+    "bio": "Highly accomplished and results-oriented Full-Stack Software Engineer with over 15 years of experience delivering impactful solutions across diverse industries, including finance and automotive. Proven ability to analyze complex, ambiguous requirements, architect robust and scalable software designs, and optimize development processes to drive significant business improvements across the full technology stack.",
     "location": "Caracas, Venezuela",
     "phone": "+58 4125400877",
     "email": "ilbert.esculpi@gmail.com",
@@ -17,7 +17,6 @@
     "experience": [
         {
             "company": "Preztamos Punto Com",
-            "companyUrl": "https://www.preztamos.com",
             "title": "Senior Software Engineer",
             "date": "2020 - present",
             "description": "At Preztamos.Punto Com, I have been instrumental in analyzing, designing, and developing full-stack solutions to address complex borrowing and lending needs in Latin America. This includes leading the investigation of AI-powered solutions like the development of an OpenAI-based chatbot assistant, optimizing data retrieval through Solr implementation, and architecting scalable systems with microservices and non-relational databases. I have also been responsible for mentoring a team of developers, streamlining deployment processes with GitHub Actions, and developing integration endpoints for stakeholder data access via BigQuery."
@@ -31,14 +30,21 @@
         {
             "company": "Bandit Solutions - Remote (Spain)",
             "title": "Mobile Developer",
-            "date": "March 2017 - March 2018",
+            "date": "2017 - 2018",
             "description": "Responsible for the development and maintenance of mobile applications, particularly for android and iOS devices. My primary focus is to integrate with backend services, and provide solutions for common problems, such as displaying great on multiple device sizes, make the apps work well with poor network connectivity, etc."
+        },
+        {
+            "company": "Bee Concept Solutions",
+            "title": "Senior Developer / Team Lead",
+            "date": "2013 - 2017",
+            "description": "As Project Team Lead, I managed developer teams for diverse web and mobile projects, collaborating with cross-functional teams to align development with business goals. I also improved coding standards and mentored developers, providing technical guidance, helping to keep projects on schedule."
         }
     ],
     "portfolio": [
         {
             "headline": "Preztamos.com",
             "subtitle": "Software Developer",
+            "projectUrl": "https://preztamos.com",
             "tags": "Angular, Firebase, Microservices",
             "cols": 3,
             "photos": [
@@ -62,6 +68,7 @@
         {
             "headline": "Agricolum",
             "subtitle": "Mobile App Developer",
+            "projectUrl": "https://play.google.com/store/apps/details?id=com.agricolum",
             "tags": "Android, iOS",
             "cols": 4,
             "photos": [

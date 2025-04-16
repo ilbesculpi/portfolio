@@ -20,7 +20,10 @@ function Portfolio({ portfolio }) {
                                     <div className="row g-4 align-items-center">
                                         <div className="col-12">
                                             <h4 className="text-body">{ item.subtitle }</h4>
-                                            <h1 className="display-6 mb-0">{ item.headline }</h1>
+                                            <h1 className="display-6 mb-0">
+                                                { item.headline }
+                                                { item.projectUrl && <a href={item.projectUrl} target="_blank" rel="noreferrer"><i class="fas fa-external-link-alt ms-4"></i></a>}
+                                            </h1>
                                             <p><small>{ item.tags }</small></p>
                                         </div>
                                         { item.photos.map((photo, index) => (
