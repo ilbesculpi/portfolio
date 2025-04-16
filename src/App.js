@@ -1,8 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Spinner from './components/Spinner';
+import PageError from './components/PageError';
 import { useEffect, useState } from 'react';
-import { Header, Navbar, About } from './sections';
+import { Header, Navbar, About, Education,
+  Experience, Skills, Services, Portfolio, Footer } from './sections';
 
 function App() {
 
@@ -18,11 +19,20 @@ function App() {
     return <Spinner />
   }
 
+  if( pageError ) {
+    <PageError error={pageError} />
+  }
+
   return (
     <>
       <Navbar />
       <Header profile={profileData} />
-      <About />
+      <Skills skills={profileData.skills} />
+      <Experience experience={profileData.experience} />
+      <Portfolio portfolio={profileData.portfolio} />
+      {/* <Education /> */}
+      <Services />
+      <Footer />
     </>
   );
 
