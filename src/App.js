@@ -39,7 +39,7 @@ function App() {
   async function loadProfile() {
     setIsLoading(true);
     try {
-      const response = await fetch('/data/profile.json');
+      const response = await fetch('data/profile.json');
       if( !response.ok ) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
