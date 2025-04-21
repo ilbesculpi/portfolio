@@ -32,7 +32,7 @@ function App() {
       <Portfolio portfolio={profileData.portfolio} />
       {/* <Education /> */}
       <Services />
-      <Footer />
+      <Footer profile={profileData} />
     </>
   );
 
