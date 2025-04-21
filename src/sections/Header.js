@@ -58,15 +58,3 @@ function Header({ profile }) {
 }
 
 export default Header;
-
-function extractPhoneDigits(formattedNumber) {
-    const digitsOnly = formattedNumber.replace(/[\s().-]/g, '');
-    // Ensure the '+' sign at the beginning is preserved if present
-    if (formattedNumber.startsWith('+') && digitsOnly.startsWith('+')) {
-      return digitsOnly;
-    } else if (formattedNumber.startsWith('+') && !digitsOnly.startsWith('+')) {
-      return '+' + digitsOnly;
-    } else {
-      return digitsOnly;
-    }
-}
