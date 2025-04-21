@@ -2,8 +2,8 @@ import './App.css';
 import Spinner from './components/Spinner';
 import PageError from './components/PageError';
 import { useEffect, useState } from 'react';
-import { Header, Navbar, About, Education,
-  Experience, Skills, Services, Portfolio, Footer } from './sections';
+import { Header, Navbar, Experience, Skills,
+  Services, Portfolio, Footer } from './sections';
 
 function App() {
 
@@ -32,14 +32,14 @@ function App() {
       <Portfolio portfolio={profileData.portfolio} />
       {/* <Education /> */}
       <Services />
-      <Footer />
+      <Footer profile={profileData} />
     </>
   );
 
   async function loadProfile() {
     setIsLoading(true);
     try {
-      const response = await fetch('data/profile.json');
+      const response = await fetch(process.env.PUBLIC_URL+'/data/profile.json');
       if( !response.ok ) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }

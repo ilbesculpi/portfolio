@@ -4,11 +4,11 @@ function Navbar() {
         <div className="container-fluid nav-section border-0">
             <nav className="navbar navbar-light">
                 <div className="navbar-nav flex-column">
-                    <a href="#pigraHome" className="nav-item nav-link active"><span className="fa fa-home"></span> Home</a>
-                    <a href="#pigraAbout" className="nav-item nav-link"><span className="far fa-address-card"></span> About</a>
-                    <a href="#pigraService" className="nav-item nav-link"><span className="fab fa-servicestack"></span> Service</a>
-                    <a href="#pigraBlog" className="nav-item nav-link"><span className="fa fa-blog"></span> Blog</a>
-                    <a href="#pigraContact" className="nav-item nav-link"><span className="fas fa-address-book"></span> Contact</a>
+                    <a href="#home" className="nav-item nav-link active"><span className="fa fa-address-card"></span> Info</a>
+                    <a href="#skills" className="nav-item nav-link"><span className="fas fa-tools"></span> Skills</a>
+                    <a href="#experience" className="nav-item nav-link"><span className="fas fa-industry"></span> Experience</a>
+                    <a href="#portfolio" className="nav-item nav-link"><span className="fas fa-briefcase"></span> Portfolio</a>
+                    <a href="#services" className="nav-item nav-link"><span className="fas fa-laptop-code"></span> Services</a>
                 </div>
             </nav>
         </div>
