@@ -3,7 +3,10 @@
     "jobTitle": "Full Stack Software Developer",
     "bio": "Highly accomplished and results-oriented Full-Stack Software Engineer with over 15 years of experience delivering impactful solutions across diverse industries, including finance and automotive. Proven ability to analyze complex, ambiguous requirements, architect robust and scalable software designs, and optimize development processes to drive significant business improvements across the full technology stack.",
     "location": "Caracas, Venezuela",
-    "phone": "+58 4125400877",
+    "phone": {
+        "text": "+58 4125400877",
+        "url": "https://wa.me/+584125400877"
+    },
     "email": "ilbert.esculpi@gmail.com",
     "skills": [
         { "title": "Node", "value": "9/10", "icon": "fab fa-node-js" },
@@ -77,6 +80,18 @@
                 { "url": "img/portfolio/agricolum03.jpg", "title": "Agricolum Home" },
                 { "url": "img/portfolio/agricolum04.jpg", "title": "Agricolum Home" }
             ]
+        }
+    ],
+    "networks": [
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/ilbesculpi/",
+            "icon": "fab fa-linkedin"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/ilbesculpi",
+            "icon": "fab fa-github"
         }
     ]
 }
