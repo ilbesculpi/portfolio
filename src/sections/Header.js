@@ -3,7 +3,7 @@ import './Header.css';
 
 function Header({ profile }) {
     return (
-        <div className="container-fluid" id="pigraHome">
+        <div className="container-fluid" id="home">
             <div className="row g-0">
                 <div className="col-12 col-lg-3">
                     <div className="header-content bg-dark h-100 pt-6 pe-6 pb-6">

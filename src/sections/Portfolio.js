@@ -1,7 +1,7 @@
 
 function Portfolio({ portfolio }) {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="portfolio">
             <div className="row g-0">
                 <div className="col-lg-3">
                     <div className="portfolio-header h-100 bg-dark pt-6 pe-6 pb-6">
