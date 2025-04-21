@@ -17,7 +17,7 @@ function About({ profile }) {
                             <div className="row g-5">
                                 <div className="col-xl-5">
                                     <div className="about-img bg-light p-4 wow fadeInUp" data-wow-delay="0.1s">
-                                        <img src="/img/about.jpg" className="img-fluid w-100" alt="About" />
+                                        <img src="img/about.jpg" className="img-fluid w-100" alt="About" />
                                         <div className="sosial-icon">
                                             <a className="btn btn-primary btn-sm-square mb-3" href="#"><i className="fab fa-facebook-f text-white"></i></a>
                                             <a className="btn btn-primary btn-sm-square mb-3" href="#"><i className="fab fa-twitter text-white"></i></a>
