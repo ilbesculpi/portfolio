@@ -28,8 +28,8 @@ function Portfolio({ portfolio }) {
                                         </div>
                                         { item.photos.map((photo, index) => (
                                         <div key={"photo_"+projectId+"_"+index} className={'col-6 ' + (item.cols === 4 ? 'col-lg-3' : 'col-lg-4') }>
-                                            <a href={photo.url} data-lightbox={'project_'+projectId} data-index={index}>
-                                                <img src={photo.url} className="img-fluid img-thumbnail rounded" alt={photo.title} />
+                                            <a href={getImageUrl(photo.url)} data-lightbox={'project_'+projectId} data-index={index}>
+                                                <img src={getImageUrl(photo.url)} className="img-fluid img-thumbnail rounded" alt={photo.title} />
                                             </a>
                                         </div>
                                         )) }
@@ -46,3 +46,7 @@ function Portfolio({ portfolio }) {
 }
 
 export default Portfolio;
+
+function getImageUrl(path) {
+    return process.env.PUBLIC_URL + '/' + path;
+}

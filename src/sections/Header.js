@@ -1,16 +1,4 @@
-function extractPhoneDigits(formattedNumber) {
-    
-    const digitsOnly = formattedNumber.replace(/[\s().-]/g, '');
-  
-    // Ensure the '+' sign at the beginning is preserved if present
-    if (formattedNumber.startsWith('+') && digitsOnly.startsWith('+')) {
-      return digitsOnly;
-    } else if (formattedNumber.startsWith('+') && !digitsOnly.startsWith('+')) {
-      return '+' + digitsOnly;
-    } else {
-      return digitsOnly;
-    }
-}
+import avatar from './avatar.png';
 
 function Header({ profile }) {
     console.log('Header.profile', profile);
@@ -31,7 +19,7 @@ function Header({ profile }) {
                             <div className="row g-5">
                                 <div className="col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
                                     <div className="bg-light p-4" style={{ borderRadius: '68% 32% 100% 0% / 0% 75% 25% 100%' }}>
-                                        <img src="img/1898824.png" className="img-fluid w-100" style={{ borderRadius: '68% 32% 100% 0% / 0% 75% 25% 100%' }} alt="Profile Pic" />
+                                        <img src={ avatar } className="img-fluid w-100" style={{ borderRadius: '68% 32% 100% 0% / 0% 75% 25% 100%' }} alt="Profile Pic" />
                                     </div>
                                 </div>
                                 <div className="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -73,3 +61,15 @@ function Header({ profile }) {
 }
 
 export default Header;
+
+function extractPhoneDigits(formattedNumber) {
+    const digitsOnly = formattedNumber.replace(/[\s().-]/g, '');
+    // Ensure the '+' sign at the beginning is preserved if present
+    if (formattedNumber.startsWith('+') && digitsOnly.startsWith('+')) {
+      return digitsOnly;
+    } else if (formattedNumber.startsWith('+') && !digitsOnly.startsWith('+')) {
+      return '+' + digitsOnly;
+    } else {
+      return digitsOnly;
+    }
+}
