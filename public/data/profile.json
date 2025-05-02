@@ -80,6 +80,16 @@
                 { "url": "img/portfolio/agricolum03.jpg", "title": "Agricolum Home" },
                 { "url": "img/portfolio/agricolum04.jpg", "title": "Agricolum Home" }
             ]
+        },
+        {
+            "headline": "Little Kicks",
+            "subtitle": "Software Developer",
+            "projectUrl": "https://www.adsoftheworld.com/campaigns/little-kicks",
+            "tags": "Node, Arduino",
+            "cols": 1,
+            "video": {
+                "src": "https://www.youtube.com/embed/T8PPfzi_xpo?si=XfOPCvsEl4ftQAym"
+            }
         }
     ],
     "networks": [

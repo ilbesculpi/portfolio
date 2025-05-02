@@ -20,17 +20,12 @@ function Portfolio({ portfolio }) {
                                         <h4 className="text-body">{ item.subtitle }</h4>
                                         <h1 className="display-6 mb-0">
                                             { item.headline }
-                                            { item.projectUrl && <a href={item.projectUrl} target="_blank" rel="noreferrer"><i class="fas fa-external-link-alt ms-4"></i></a>}
+                                            { item.projectUrl && <a href={item.projectUrl} target="_blank" rel="noreferrer"><i className="fas fa-external-link-alt ms-4"></i></a>}
                                         </h1>
                                         <p><small>{ item.tags }</small></p>
                                     </div>
-                                    { item.photos.map((photo, index) => (
-                                    <div key={"photo_"+projectId+"_"+index} className={'col-6 ' + (item.cols === 4 ? 'col-lg-3' : 'col-lg-4') }>
-                                        <a href={getImageUrl(photo.url)} data-lightbox={'project_'+projectId} data-index={index}>
-                                            <img src={getImageUrl(photo.url)} className="img-fluid img-thumbnail rounded" alt={photo.title} />
-                                        </a>
-                                    </div>
-                                    )) }
+                                    { item.photos && <Photos photos={item.photos} cols={item.cols} targetId={projectId} /> }
+                                    { item.video && <Video video={item.video} /> }
                                 </div>
                             </div>
                         )) }
@@ -45,4 +40,34 @@ export default Portfolio;
 
 function getImageUrl(path) {
     return process.env.PUBLIC_URL + '/' + path;
+}
+
+function Photos({ photos, cols, targetId }) {
+    return photos.map((photo, index) => (
+        <Photo key={"photo_"+index}
+            url={getImageUrl(photo.url)}
+            title={photo.title}
+            cols={cols}
+            index={index}
+            targetId={targetId} />
+    ));
+}
+
+function Photo({ url, title, cols, index, targetId }) {
+    return (
+    <div className={'col-6 ' + (cols === 4 ? 'col-lg-3' : 'col-lg-4') }>
+        <a href={url} data-lightbox={'project_'+targetId} data-index={index}>
+            <img src={url} className="img-fluid img-thumbnail rounded" alt={title} />
+        </a>
+    </div>);
+}
+
+function Video({ video }) {
+    return (<iframe width="560" height="400" 
+        src={video.src} 
+        title="YouTube video player" 
+        frameBorder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerPolicy="strict-origin-when-cross-origin" 
+        allowFullScreen></iframe>);
 }
