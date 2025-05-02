@@ -15,7 +15,7 @@ function Skills({ skills }) {
                     <div className="skills-content h-100 pt-6 ps-6 pb-6">
                         <div className="row g-4">
                             { skills.map((skill, index) => (
-                                <div className="col-6 col-md-4 col-lg-4 col-xl-3">
+                                <div key={"skill_"+index} className="col-6 col-md-4 col-lg-4 col-xl-3">
                                 <div className="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
                                     <div className="text-primary text-center mb-3">
                                         <span className={ 'fa-3x ' + skill.icon }></span>

@@ -15,6 +15,24 @@ function App() {
     loadProfile();
   }, []);
 
+  async function loadProfile() {
+    setIsLoading(true);
+    try {
+      const response = await fetch(process.env.PUBLIC_URL+'/data/profile.json');
+      if( !response.ok ) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const profile = await response.json();
+      setProfileData(profile);
+      setIsLoading(false);
+    }
+    catch(error) {
+      console.error("Error fetching profile data:", error);
+      setIsLoading(false);
+      setPageError('Error fetching profile data.');
+    }
+  }
+
   if( isLoading ) {
     return <Spinner />
   }
@@ -35,24 +53,6 @@ function App() {
       <Footer profile={profileData} />
     </>
   );
-
-  async function loadProfile() {
-    setIsLoading(true);
-    try {
-      const response = await fetch(process.env.PUBLIC_URL+'/data/profile.json');
-      if( !response.ok ) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      const profile = await response.json();
-      setProfileData(profile);
-      setIsLoading(false);
-    }
-    catch(error) {
-      console.error("Error fetching profile data:", error);
-      setIsLoading(false);
-      setPageError('Error fetching profile data.');
-    }
-  }
 
 }
 
