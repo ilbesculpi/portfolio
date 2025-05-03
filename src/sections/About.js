@@ -19,10 +19,10 @@ function About({ profile }) {
                                     <div className="about-img bg-light p-4 wow fadeInUp" data-wow-delay="0.1s">
                                         <img src="img/about.jpg" className="img-fluid w-100" alt="About" />
                                         <div className="sosial-icon">
-                                            <a className="btn btn-primary btn-sm-square mb-3" href="#"><i className="fab fa-facebook-f text-white"></i></a>
-                                            <a className="btn btn-primary btn-sm-square mb-3" href="#"><i className="fab fa-twitter text-white"></i></a>
-                                            <a className="btn btn-primary btn-sm-square mb-3" href="#"><i className="fab fa-instagram text-white"></i></a>
-                                            <a className="btn btn-primary btn-sm-square mb-0" href="#"><i className="fab fa-linkedin-in text-white"></i></a>
+                                            <a className="btn btn-primary btn-sm-square mb-3" href="/"><i className="fab fa-facebook-f text-white"></i></a>
+                                            <a className="btn btn-primary btn-sm-square mb-3" href="/"><i className="fab fa-twitter text-white"></i></a>
+                                            <a className="btn btn-primary btn-sm-square mb-3" href="/"><i className="fab fa-instagram text-white"></i></a>
+                                            <a className="btn btn-primary btn-sm-square mb-0" href="/"><i className="fab fa-linkedin-in text-white"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@ function About({ profile }) {
                                             <p className="mb-0"><strong className="fw-bold text-dark">Freelancer :</strong> Available</p>
                                         </div>
                                     </div>
-                                    <a href="#" className="btn btn-primary py-2 px-4"> <i className="fas fa-download me-2"></i>Download My CV</a>
+                                    <a href="/" className="btn btn-primary py-2 px-4"> <i className="fas fa-download me-2"></i>Download My CV</a>
                                 </div>
                             </div>
                         </div>
