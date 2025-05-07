@@ -15,7 +15,7 @@ function Experience({ experience }) {
                     <div className="experience-content h-100 pt-6 ps-6 pb-6">
                         <div className="row g-4">
                             { experience.map((job, index) => (
-                            <div className="col-12">
+                            <div key={"exp_"+index} className="col-12">
                                 <div className="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
                                     <div className="d-flex align-items-center mb-3">
                                         <p className="fs-5 mb-0 me-4">{ job.company }</p>

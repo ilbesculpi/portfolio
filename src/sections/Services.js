@@ -21,7 +21,7 @@ function Services() {
                                             <i className="fas fa-laptop-code fa-3x"></i>
                                         </div>
                                         <div className="col-xl-3">
-                                            <a href="#" className="h4 mb-0">Frontend Development</a>
+                                            Frontend Development
                                         </div>
                                         <div className="col-xl-4">
                                             <p className="mb-0">Captivate your users with stunning and intuitive website experiences they'll love.</p>
@@ -41,7 +41,7 @@ function Services() {
                                             <i className="fas fa-server fa-3x"></i>
                                         </div>
                                         <div className="col-xl-3">
-                                            <a href="#" className="h4 mb-0">Backend Development</a>
+                                            Backend Development
                                         </div>
                                         <div className="col-xl-4">
                                             <p className="mb-0">Unlock your website's full potential with robust and reliable behind-the-scenes power.</p>
@@ -64,7 +64,7 @@ function Services() {
                                             <i className="fas fa-mobile-alt fa-3x"></i>
                                         </div>
                                         <div className="col-xl-3">
-                                            <a href="#" className="h4 mb-0">Mobile Apps</a>
+                                            Mobile Apps
                                         </div>
                                         <div className="col-xl-4">
                                             <p className="mb-0">Reach your audience anywhere with custom-built apps that put you in their pocket.</p>
